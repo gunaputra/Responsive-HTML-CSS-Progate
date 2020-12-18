@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Agency FB", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 40px 0;
+    background-image: url("images/bg.png");
+    background-size: cover;
+    color: #000000;
+    text-align: left;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 70px;
+    letter-spacing: 6px;
+    margin-bottom: 5px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.btn-wrapper {
+    text-align: left;
+    margin: 70px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.hirenow {
+    background-color: #6e0000;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgb(110, 0, 0);
+
+}
+
+/* Tambahkan CSS untuk menu-icon */
+span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
+}
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.sm-list {
+    display: flex;
+}
+
+.sm-link {
+    color: #6e0000;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #3c3f41;
+    border-radius: 58%;
+    display: flex;
+    margin-right: 2.5rem;
+    margin-top: 20px;
+}
+
+.sm-link i {
+    margin: auto;
+}
+
+.sm-link:hover {
+    background-image: linear-gradient(to right, rgb(110, 0, 0), rgb(110, 0, 0));
+    color: #fff;
+}
